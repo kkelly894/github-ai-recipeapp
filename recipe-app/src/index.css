@@ -1,0 +1,25 @@
+/* index.css
+   Global styles for the recipe app.
+   This file will be imported by main.jsx. */
+
+:root {
+  color-scheme: light;
+  font-family: Inter, Arial, sans-serif;
+  background: #f8fafc;
+  color: #111827;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
